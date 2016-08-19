@@ -1,0 +1,23 @@
+$colors:(
+	aquaOxi: #0b97aa,
+	blueOxi: #004777,
+	bluelight: #a1d2ce,
+	greenOxi: #3e885b,
+	yellowOxi: #efd28d,
+	whitec: #FFD,
+	white: #FFF,
+	black: #000
+);
+
+@each $color,$value in $colors{
+	.#{$color}{
+		background-color:$value;
+	}
+	.#{$color}-text{
+		color:$value;
+	}
+	.btn--#{$color}{
+	@extend .#{$color};
+	box-shadow: 3px 3px 0px 3px darken($value, 15);
+	}
+}
