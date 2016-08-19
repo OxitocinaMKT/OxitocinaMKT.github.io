@@ -799,7 +799,7 @@
   position: absolute;
 }
 
-.bold, .btn, header .restant-time span span {
+.bold, .btn {
   font-weight: bold;
 }
 
@@ -807,7 +807,7 @@
   border-radius: 50%;
 }
 
-.inline-block, header .restant-time span {
+.inline-block {
   display: inline-block;
 }
 
@@ -840,7 +840,7 @@
   position: relative;
 }
 
-.small, header .restant-time span span {
+.small {
   font-size: 14px;
 }
 
@@ -860,7 +860,7 @@
   text-align: left;
 }
 
-.text-right, header .restant-time span span {
+.text-right {
   text-align: right;
 }
 
@@ -872,7 +872,7 @@
   margin-top: 1em;
 }
 
-.uppercase, header .restant-time span span {
+.uppercase {
   text-transform: uppercase;
 }
 
@@ -1003,17 +1003,6 @@ html, body {
 header .init {
   position: relative;
   top: 2em;
-  padding-right: 10px;
-}
-
-header .restant-time span {
-  vertical-align: top;
-  line-height: 1em;
-  font-size: 99px;
-}
-
-header .restant-time span span {
-  display: block;
   padding-right: 10px;
 }
 

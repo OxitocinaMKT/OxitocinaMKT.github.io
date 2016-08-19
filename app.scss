@@ -50,22 +50,6 @@ header{
 		top: 2em;
 		padding-right: 10px;
 	}
-	.restant-time{
-		span{
-			@extend .inline-block;
-			vertical-align:top;
-			line-height:1em;
-			font-size:99px;
-			span{
-				display:block;
-				@extend .small;
-				@extend .uppercase;
-				@extend .bold;
-				@extend .text-right;
-				padding-right:10px;
-			}
-		}
-	}
 }
 .move-up{
 	@extend .relative;
